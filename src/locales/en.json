@@ -12,5 +12,11 @@
     "edit": "Edit",
     "test": "to test hot module replacement"
   },
-  "select-locale": "Select locale"
+  "select-locale": "Select locale",
+  "links-example": "Router links can be imported asynchronously. {link}",
+  "check-it-out": "Check it out!",
+  "link-sample": {
+    "body": "This page shows an example of an asynchronously loaded route.",
+    "go-back": "Gå tilbage"
+  }
 }

@@ -1,0 +1,22 @@
+{
+  "welcome": "Velkommen til Vite + Vue 3 + Typescript",
+  "setup": "Anbefalet IDE setup:",
+  "see-readme": {
+    "see": "se",
+    "more-info": "for mere information."
+  },
+  "docs": "Dokumentation",
+  "check-reactivity": "Tjek reaktivitet",
+  "count": "ingen klik |  {count} klik | {count} klik",
+  "hmr": {
+    "edit": "Redigér",
+    "test": "for at teste hot-module replacement"
+  },
+  "select-locale": "Vælg sprog",
+  "links-example": "Router links kan importeres asynkront. {link}",
+  "check-it-out": "Tjek det ud!",
+  "link-sample": {
+    "body": "Denne side viser et eksempel på en side, som indlæses asynkront.",
+    "go-back": "Gå tilbage"
+  }
+}

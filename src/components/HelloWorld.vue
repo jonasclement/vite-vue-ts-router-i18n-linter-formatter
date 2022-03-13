@@ -1,5 +1,12 @@
 <template>
   <h1>{{ msg }}</h1>
+  <i18n-t keypath="links-example" tag="p">
+    <template #link>
+      <router-link :to="{ name: 'link-sample' }">{{
+        t("check-it-out")
+      }}</router-link>
+    </template>
+  </i18n-t>
   <p>
     {{ t("setup") }}
     <a href="https://code.visualstudio.com/">VSCode</a>
@@ -31,13 +38,9 @@
 
   <h3>{{ t("check-reactivity") }}</h3>
 
-  <basic-button
-    size="small"
-    type="button"
-    @click="count++"
-    :label="t('count', { count })"
-  >
-  </basic-button>
+  <button size="small" type="button" @click="count++">
+    {{ t("count", { count }) }}
+  </button>
   <p>
     {{ t("hmr.edit") }}
     <code>components/HelloWorld.vue</code>
