@@ -1,10 +1,11 @@
 @use "@/styles/colors" as *;
+@use "sass:map";
 
 @function app-color($keys...) {
   $value: $colors;
 
   @each $key in $keys {
-    $value: map-get($value, $key);
+    $value: map.get($value, $key);
   }
 
   @return $value;
