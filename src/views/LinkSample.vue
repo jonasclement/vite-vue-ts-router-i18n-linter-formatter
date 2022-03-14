@@ -1,9 +1,9 @@
 <template>
   <p>
     {{ t("link-sample.body") }}
-    <router-link :to="{ name: 'home' }">{{
-      t("link-sample.go-back")
-    }}</router-link>
+    <router-link :to="{ name: 'home' }">
+      {{ t("link-sample.go-back") }}
+    </router-link>
   </p>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-  <locale-select></locale-select>
+  <locale-select />
   <a
     v-for="{ alt, src, href } in links"
     :key="alt"

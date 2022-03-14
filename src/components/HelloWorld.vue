@@ -2,9 +2,9 @@
   <h1>{{ msg }}</h1>
   <i18n-t keypath="links-example" tag="p">
     <template #link>
-      <router-link :to="{ name: 'link-sample' }">{{
-        t("check-it-out")
-      }}</router-link>
+      <router-link :to="{ name: 'link-sample' }">
+        {{ t("check-it-out") }}
+      </router-link>
     </template>
   </i18n-t>
   <p>

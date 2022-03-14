@@ -8,9 +8,9 @@ module.exports = {
   plugins: ["simple-import-sort"],
   extends: [
     "eslint:recommended",
-    "@vue/prettier",
+    "plugin:vue/vue3-recommended",
     "@vue/typescript/recommended",
-    "plugin:vue/vue3-essential",
+    "@vue/prettier",
     "plugin:markdown/recommended",
   ],
   parserOptions: {
